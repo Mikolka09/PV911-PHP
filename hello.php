@@ -1,6 +1,6 @@
 <?php
 
-phpinfo();
+//phpinfo();
 /*// create curl resource
 $ch = curl_init();
 
