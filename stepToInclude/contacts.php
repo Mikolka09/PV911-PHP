@@ -2,7 +2,7 @@
 include ("template/header.php");
 ?>
 
-<h1> Обо мне</h1>
+<h1> Мои контакты</h1>
 
 <?php
 include ("template/footer.php");

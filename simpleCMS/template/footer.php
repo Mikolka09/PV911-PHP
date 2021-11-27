@@ -1,21 +1,21 @@
 </div>
 
 <?php
-$myVar = "Значение переменной в footer";
-echo "<div>" . __FILE__. "=". "$myVar" . "</div>";
-?>
+echo "<div>" . __FILE__ . " = " . $myVar . " </div>";
 
-<?php
-if(function_exists("curl_init")){
-$c = curl_init();
-}else{
-    echo "Сервер не поддерживает такую технологию";
+
+
+if(function_exists("curl_init"))
+    $c = curl_init();
+else {
+    echo " Наш сервер не поддерживает данную технологию";
 }
+
 
 if(function_exists("buildStandardTable")){
     echo "Функция есть";
-}else{
-    echo"Функции нет";
+} else {
+    echo "Функции нет";
 }
 
 //echo buildStandardTable();

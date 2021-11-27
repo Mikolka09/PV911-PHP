@@ -4,8 +4,9 @@
 //echo __FILE__ . " ";
 //echo __LINE__ . " ";
 
-function buildStandardTable(){
 
+function buildStandardTable (): string
+{
     //echo __FUNCTION__ . " ";
     $res = "<tbody>";
     for ($r = 0; $r < 10; $r++) {
