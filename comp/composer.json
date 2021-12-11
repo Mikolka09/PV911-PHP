@@ -1,0 +1,21 @@
+{
+    "name": "mikolka/comp",
+    "description": "Lesson",
+    "type": "les",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "license": "BeerWare",
+    "autoload": {
+        "psr-4": {
+            "Mikolka\\Comp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mykola Matios",
+            "email": "mikolka09@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
