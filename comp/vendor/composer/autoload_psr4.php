@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'Mikolka\\View\\' => array($baseDir . '/views'),
     'Mikolka\\Model\\' => array($baseDir . '/models'),
     'Mikolka\\Controller\\' => array($baseDir . '/controllers'),
     'Mikolka\\Comp\\' => array($baseDir . '/src'),

@@ -13,6 +13,7 @@ class ComposerStaticInit713cda3e434d0a6487e7a85a852429b2
         ),
         'M' => 
         array (
+            'Mikolka\\View\\' => 13,
             'Mikolka\\Model\\' => 14,
             'Mikolka\\Controller\\' => 19,
             'Mikolka\\Comp\\' => 13,
@@ -23,6 +24,10 @@ class ComposerStaticInit713cda3e434d0a6487e7a85a852429b2
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Mikolka\\View\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/views',
         ),
         'Mikolka\\Model\\' => 
         array (

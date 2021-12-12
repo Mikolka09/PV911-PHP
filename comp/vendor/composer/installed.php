@@ -5,7 +5,7 @@
         'type' => 'les',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b7806d9bc92eca70d5b04274b7cf5aa6bb220f50',
+        'reference' => 'b834c67a00a5a7c4e26bd8e4ef8bf37db51f2681',
         'name' => 'mikolka/comp',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'les',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b7806d9bc92eca70d5b04274b7cf5aa6bb220f50',
+            'reference' => 'b834c67a00a5a7c4e26bd8e4ef8bf37db51f2681',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(

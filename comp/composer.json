@@ -10,7 +10,8 @@
         "psr-4": {
             "Mikolka\\Comp\\": "src/",
             "Mikolka\\Model\\": "models/",
-            "Mikolka\\Controller\\": "controllers/"
+            "Mikolka\\Controller\\": "controllers/",
+            "Mikolka\\View\\": "views/"
         }
     },
     "authors": [

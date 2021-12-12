@@ -7,3 +7,4 @@ $m->testMail();*/
 \Mikolka\Model\Entity::helloWorld();
 
 \Mikolka\Controller\EntityController::helloWorld();
+\Mikolka\View\EntityView::welcomeView();
