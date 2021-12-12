@@ -2,13 +2,15 @@
     "name": "mikolka/comp",
     "description": "Lesson",
     "type": "les",
+    "license": "BeerWare",
     "require": {
         "phpmailer/phpmailer": "dev-master"
     },
-    "license": "BeerWare",
     "autoload": {
         "psr-4": {
-            "Mikolka\\Comp\\": "src/"
+            "Mikolka\\Comp\\": "src/",
+            "Mikolka\\Model\\": "models/",
+            "Mikolka\\Controller\\": "controllers/"
         }
     },
     "authors": [
