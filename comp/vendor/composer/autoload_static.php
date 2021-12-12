@@ -16,6 +16,7 @@ class ComposerStaticInit713cda3e434d0a6487e7a85a852429b2
             'Mikolka\\View\\' => 13,
             'Mikolka\\Model\\' => 14,
             'Mikolka\\Controller\\' => 19,
+            'Mikolka\\Config\\' => 15,
             'Mikolka\\Comp\\' => 13,
         ),
     );
@@ -36,6 +37,10 @@ class ComposerStaticInit713cda3e434d0a6487e7a85a852429b2
         'Mikolka\\Controller\\' => 
         array (
             0 => __DIR__ . '/../..' . '/controllers',
+        ),
+        'Mikolka\\Config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/config',
         ),
         'Mikolka\\Comp\\' => 
         array (

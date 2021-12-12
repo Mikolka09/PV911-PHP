@@ -11,7 +11,8 @@
             "Mikolka\\Comp\\": "src/",
             "Mikolka\\Model\\": "models/",
             "Mikolka\\Controller\\": "controllers/",
-            "Mikolka\\View\\": "views/"
+            "Mikolka\\View\\": "views/",
+            "Mikolka\\Config\\": "config/"
         }
     },
     "authors": [

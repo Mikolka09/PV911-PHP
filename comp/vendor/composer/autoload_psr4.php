@@ -10,5 +10,6 @@ return array(
     'Mikolka\\View\\' => array($baseDir . '/views'),
     'Mikolka\\Model\\' => array($baseDir . '/models'),
     'Mikolka\\Controller\\' => array($baseDir . '/controllers'),
+    'Mikolka\\Config\\' => array($baseDir . '/config'),
     'Mikolka\\Comp\\' => array($baseDir . '/src'),
 );
