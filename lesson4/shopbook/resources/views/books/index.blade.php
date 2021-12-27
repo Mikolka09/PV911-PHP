@@ -41,13 +41,24 @@
                 <td>{{$book->pages}}</td>
                 <td>{{$book->price}}</td>
                 <td>
-                    <a class="btn btn-info btn-sm" href="{{route('books.show', $book->id)}}">Show</a>
-                    <a class="btn btn-primary btn-sm" href="{{route('books.edit', $book->id)}}">Edit</a>
-                    <form action="{{route('books.destroy', $book->id)}}" method="POST">
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-                    </form>
+                    <div class="container-full">
+                        <div class="row mx-0">
+                            <div class="col-md-4">
+                                <a class="btn btn-info btn-sm" href="{{route('books.show', $book->id)}}">Show</a>
+                            </div>
+                            <div class="col-md-3">
+                                <a class="btn btn-primary btn-sm" href="{{route('books.edit', $book->id)}}">Edit</a>
+                            </div>
+                            <div class="col-md-3">
+                                <form onclick="if(!confirm('Do you really want to delete with Book?')) {return false}"
+                                      action="{{route('books.destroy', $book->id)}}" method="POST">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </td>
             </tr>
         @endforeach

@@ -20,46 +20,55 @@
 
     <form action="{{route('books.store')}}" method="POST">
         @csrf
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group mb-3">
-                    <label for="author" class="form-label fw-bold">Author</label>
-                    <input type="text" id="author" name="author" class="form-control" placeholder="Author"/>
+        <div class="container">
+            <div class="row">
+                <div class="row justify-content-center">
+                    <div class="col-5">
+                        <div class="form-group mb-3">
+                            <label for="author" class="form-label fw-bold">Author</label>
+                            <input type="text" id="author" name="author" class="form-control" placeholder="Author"/>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group mb-3">
+                            <label for="title" class="form-label fw-bold">Title</label>
+                            <input type="text" id="title" name="title" class="form-control" placeholder="Title"/>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <div class="form-group mb-3">
+                            <label for="pages" class="form-label fw-bold">Pages</label>
+                            <input type="text" id="pages" name="pages" class="form-control" placeholder="Pages"/>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group mb-3">
-                    <label for="title" class="form-label fw-bold">Title</label>
-                    <input type="text" id="title" name="title" class="form-control" placeholder="Title"/>
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <div class="form-group mb-3">
+                            <label for="short_desc" class="form-label fw-bold">Short_desc</label>
+                            <input type="text" id="short_desc" name="short_desc" class="form-control"
+                                   placeholder="Short_desc"/>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-group mb-3">
+                            <label for="price" class="form-label fw-bold">Price</label>
+                            <input type="text" id="price" name="price" class="form-control" placeholder="Price"/>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group mb-3">
-                    <label for="author" class="form-label fw-bold">Short_desc</label>
-                    <input type="text" id="short_desc" name="short_desc" class="form-control" placeholder="Short_desc"/>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group mb-3">
+                        <label for="description" class="form-label fw-bold">Description</label>
+                        <textarea name="description" class="form-control" style="height: 150px;"
+                                  placeholder="Description"></textarea>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group mb-3">
-                    <label for="author" class="form-label fw-bold">Description</label>
-                    <textarea name="description" class="form-control" style="height: 150px;" placeholder="Description"></textarea>
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <button type="submit" class="btn btn-success">Create</button>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group mb-3">
-                    <label for="author" class="form-label fw-bold">Pages</label>
-                    <input type="text" id="pages" name="pages" class="form-control" placeholder="Pages"/>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group mb-3">
-                    <label for="author" class="form-label fw-bold">Price</label>
-                    <input type="text" id="price" name="price" class="form-control" placeholder="Price"/>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-success">Create</button>
             </div>
         </div>
+
     </form>
 @endsection
